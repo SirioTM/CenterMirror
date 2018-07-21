@@ -5,7 +5,14 @@ Requirements:
 
     - Linux / Windows / OSX
     - Python https://www.python.org/getit/
-    - Flask framework pip install Flask
+    - Flask framework 'pip install Flask'
+
+How to use:
+    
+    - Run the program home.py with the instruction 'python home.py'
+    - Open the browser and digit 'localhost:5000'
+
+If you want informations on an other city you can replace in 'home.py' Napoli with an other city
 
 
 by Giovanni Iacolare
