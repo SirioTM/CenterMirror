@@ -1,0 +1,18 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+
+  <div class = 'jumbotron'>
+    <div class = 'text-center'>
+      <h1>Welcome to the WeatherApp</h1>
+    </div>
+    <p>
+      <h5>Nazione: {{info.Nazione}}</h5>
+      <h5>Tempo: {{info.Tempo}}</h5>
+      <h5>Temperatura: {{info.Temperatura}} °C</h5>
+      <h5>Pressione: {{info.Pressione}} Pa</h5>
+      <h5>Umidità: {{info.Umidita}}%</h5>
+    </p>
+  </div>
+
+{% endblock %}
